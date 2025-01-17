@@ -123,6 +123,11 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("SampleScene");
     }
 
+    public void OpenMainMenu()
+    {
+        ChangeGameState(GameState.MainMenu);
+    }
+
     public void OpenSettings()
     {
         ChangeGameState(GameState.Settings);
